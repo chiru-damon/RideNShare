@@ -15,7 +15,7 @@ client=pymongo.MongoClient('mongodb+srv://chiru:chiru@cluster0.pgk2x.mongodb.net
 
 @app.route('/')
 def first():
-  return render_template('main2.html')
+  return render_template('main.html')
 
 @app.route('/developers')
 def ours():
