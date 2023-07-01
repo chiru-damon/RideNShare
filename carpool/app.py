@@ -350,6 +350,4 @@ scheduler = BackgroundScheduler()
 job = scheduler.add_job(test_job, 'interval', seconds=10)
 scheduler.start()
 
-if __name__=='__main__':
-  app.run()
 
