@@ -1,7 +1,2 @@
-
-datetime
-time
-bson
-pymongo
-smtplib
-
+Flask==2.2.2
+pymongo==4.2.0
